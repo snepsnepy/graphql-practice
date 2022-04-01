@@ -19,6 +19,7 @@ import { ref } from "vue";
 import { useQuery } from "@vue/apollo-composable";
 import ALL_BOOKS_QUERY from "./graphql/allBooks.query.gql";
 
+//dummy comment
 export default {
   name: "App",
   setup() {
