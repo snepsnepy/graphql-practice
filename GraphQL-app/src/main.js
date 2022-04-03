@@ -19,25 +19,6 @@ const apolloClient = new ApolloClient({
     cache,
 });
 
-const ALL_BOOKS_QUERY = gql`
-    query AllBooks {
-        allBooks {
-        id
-        title
-        rating
-        }
-    }
-`
-
-// apolloClient
-//     .query({
-//         query: ALL_BOOKS_QUERY
-//     })
-//     .then(res => {
-//         console.log(res)
-//     })
-
-
 // To add Apollo to our Vue App we have to refactor the 'createApp' call.
 // createApp(App).mount('#app')
 
